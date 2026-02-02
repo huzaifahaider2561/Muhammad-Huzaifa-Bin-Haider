@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/huzaifaico.png" alt="Muhammad Huzaifa Bin Haider" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Muhammad Huzaifa Bin Haider">Muhammad Huzaifa<br>Bin Haider</h1>
+          <p class="title">AI Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:muhammadhuzaifabinhaider@gmail.com" class="contact-link">muhammadhuzaifabinhaider@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="https://wa.me/923346267740" class="contact-link">+92 334 6267740</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 25, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Karachi, Sindh, Pakistan</address>
+            </div>
+
+          </li>
+
+        <ul class="social-list">
+
+        <li class="social-item">
+          <a 
+            href="https://www.linkedin.com/in/muhammad-huzaifa-bin-haider-a67069255/" 
+            class="social-link" 
+            target="_blank" 
+            title="LinkedIn">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a 
+            href="https://www.instagram.com/Huzaifa_2516/" 
+            class="social-link" 
+            target="_blank" 
+            title="Instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a 
+            href="https://www.facebook.com/share/19pLKezo7c/?mibextid=wwXIfr" 
+            class="social-link" 
+            target="_blank" 
+            title="Facebook">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m an AI Engineer and ICT Officer with a strong background in computer science, artificial intelligence, and enterprise system support. I specialize in building intelligent, automated solutions that turn complex data and workflows into efficient, reliable, and scalable systems.
+          </p>
+
+          <p>
+            My work focuses on developing AI-powered applications, including NLP-based chatbots, recommendation systems, and deep learning models for computer vision tasks such as age and gender recognition. I enjoy solving real-world problems by combining machine learning, automation, and software engineering to improve operational efficiency and decision-making.
+          </p>
+
+          <p>
+            My role is to design and implement systems that are not only technically robust but also practical and easy to use. From on-premise AI chatbots and server monitoring automation to ERP support and healthcare AI solutions, I ensure that technology delivers real value. My aim is to help organizations leverage AI in a secure, scalable, and impactful way through thoughtful engineering and continuous optimization.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+
+    <!-- Artificial Intelligence Solutions -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <ion-icon 
+          name="hardware-chip-outline"
+          style="font-size:52px; color:#f5c76b;">
+        </ion-icon>
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Artificial Intelligence Solutions</h4>
+        <p class="service-item-text">
+          Designing and implementing intelligent systems using machine learning and deep learning
+          to solve real-world problems across healthcare, enterprise, and automation domains.
+        </p>
+      </div>
+    </li>
+
+    <!-- Natural Language Processing -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <ion-icon 
+          name="chatbubble-ellipses-outline"
+          style="font-size:52px; color:#f5c76b;">
+        </ion-icon>
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Natural Language Processing Systems</h4>
+        <p class="service-item-text">
+          Building conversational systems and chatbots that understand user intent, process
+          unstructured text, and deliver accurate, context-aware responses.
+        </p>
+      </div>
+    </li>
+
+    <!-- Infrastructure Monitoring & Automation -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <ion-icon 
+          name="pulse-outline"
+          style="font-size:52px; color:#f5c76b;">
+        </ion-icon>
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Infrastructure Monitoring & Automation</h4>
+        <p class="service-item-text">
+          Developing automated monitoring and alerting solutions to track system availability,
+          performance, and reliability.
+        </p>
+      </div>
+    </li>
+
+    <!-- Enterprise Systems & IT Support -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <ion-icon 
+          name="cog-outline"
+          style="font-size:52px; color:#f5c76b;">
+        </ion-icon>
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Enterprise Systems & IT Support</h4>
+        <p class="service-item-text">
+          Providing structured support for enterprise applications and information technology
+          systems, ensuring stability, security, and smooth day-to-day operations.
+        </p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Farhan Alam" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Farhan Alam</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Muhammad Huzaifa worked under my supervision at CNERGYICO PK Limited, 
+                    where he contributed to artificial intelligence, information technology, 
+                    and application support initiatives. I was very satisfied with his performance, 
+                    particularly his work on AI-driven solutions, automation, and system optimization. 
+                    He consistently demonstrated strong technical skills, problem-solving ability, 
+                    and a clear understanding of enterprise requirements. His professionalism, reliability, 
+                    and commitment to delivering quality results made him a valuable member of the team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Anis Ali" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anis Ali</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Muhammad Huzaifa worked at Tabba Heart Institute as an ICT Service Desk Officer under my supervision. 
+                    He handled day-to-day information and communication technology support operations with professionalism and 
+                    efficiency, ensuring smooth functioning of systems and timely issue resolution. He demonstrated strong 
+                    technical understanding, responsiveness, and a proactive approach to supporting clinical and administrative staff. 
+                    His reliability, communication skills, and commitment to maintaining service quality made him a dependable member of the ICT team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatarico.png" alt="Dr. Mohsin Raza Jafri" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Mohsin Raza Jafri</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Muhammad Huzaifa Bin Haider was my student in the Computer Science program at the National University of Sciences 
+                    and Technology (NUST), where I taught him courses including Computer Networks, Fundamentals of Information 
+                    and Communication Technology, and Data Communications. He consistently demonstrated diligence, strong analytical 
+                    skills, and a genuine curiosity to understand complex technical concepts. Huzaifa is a versatile and self-motivated 
+                    individual who works well both independently and in collaborative environments. His maturity, eagerness to learn, 
+                    and commitment to excellence distinguish him as a promising graduate student and future professional.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Dr. Muhammad Tahir" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Muhammad Tahir</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Muhammad Huzaifa Bin Haider was my student for two semesters in the Computer Science program at the 
+                    National University of Sciences and Technology (NUST), Balochistan Campus. He completed his Final Year 
+                    Design Project under my supervision and also studied Civic and Community Engagement with me. Throughout this period, 
+                    he demonstrated strong technical understanding, dedication, and a disciplined approach to his academic responsibilities. 
+                    He consistently completed his tasks in a timely and professional manner and showed a clear commitment to excellence. 
+                    Based on his performance and conduct, I consider him a competent and motivated individual, 
+                    well-prepared to pursue higher education and succeed in future academic and professional challenges.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2026-02-02">02 Feb, 2026</time>
+
+              <div data-modal-text>
+                <p>
+                  Huzaifa was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience and is very concerned about the needs of client. 
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+  <!--        <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>-->
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Unviersity of Sciences and Technology, Pakistan</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Adamjee Government Sciecne College, Karachi, Pakistan</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IJK Schooling System, Karachi, Paksitan</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CNERGYICO PK, LIMITED</h4>
+
+              <span>Oct 2025 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TABBA HEART INSTITUTE</h4>
+
+              <span>March 2025 — September 2025</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+        
+        <section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Projects</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Natural Language Processing Chatbot for Enterprise Systems
+      </h4>
+      <span>2025 — Present</span>
+      <p class="timeline-text">
+        Built an on-premise chatbot using natural language processing to interpret user queries, generate structured database queries,
+        and retrieve data from PostgreSQL systems while ensuring secure enterprise integration.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Artificial Intelligence Referee Chatbot – Multi-Model Evaluation and Consensus System
+      </h4>
+      <span>2025</span>
+      <p class="timeline-text">
+        Developed an artificial intelligence–based chatbot that evaluates and compares responses from multiple large language models
+        using peer-review and voting logic to generate a consensus-based enhanced response.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Real-Time Infrastructure Monitoring and Alert Automation System
+      </h4>
+      <span>2025</span>
+      <p class="timeline-text">
+        Worked on a Python-based infrastructure monitoring system utilizing heartbeat-based health verification, tier-based alert
+        escalation, automated notifications, and recovery detection for enterprise environments.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Artificial Intelligence–Powered Healthcare Recommendation System
+      </h4>
+      <span>2025</span>
+      <p class="timeline-text">
+        Initiated and contributed to an artificial intelligence–based system for automated diet and medication recommendations
+        to support healthcare workflows through data-driven insights.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Gender and Age Identification Using Machine Learning and Deep Learning Techniques
+      </h4>
+      <span>2023 — 2024</span>
+      <p class="timeline-text">
+        Developed convolutional neural network models for age and gender prediction from facial images using the UTK Face dataset.
+        This project also included a mobile application developed using React Native and Django as part of the complete system.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Hand Gesture Controlled Robotic Arm
+      </h4>
+      <span>2021</span>
+      <p class="timeline-text">
+        Developed a gesture-controlled robotic arm using Arduino, gyroscope sensors, and flex sensors to translate human hand
+        movements into real-time robotic actions.
+      </p>
+    </li>
+
+    <!-- Additional Academic Projects (Names Only) -->
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Design of Fire Alarm System for University Campus
+      </h4>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Scenery with Day and Night Transition using OpenGL (Computer Graphics)
+      </h4>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Three-Dimensional Image Reconstruction from Multiple Two-Dimensional Images (Digital Image Processing)
+      </h4>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Blood Group Collection Directory using C++ and .NET Framework
+      </h4>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Property Database Management System using MySQL (Database Management System)
+      </h4>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Arithmetic Calculator and Number System Conversion using Assembly Language
+      </h4>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Phone Book Directory using C++ and .NET Framework
+      </h4>
+    </li>
+
+  </ol>
+
+</section>
+
+
+
+        
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Deep Learning and Computer Vision</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Artificial Intelligence and Machine Learning</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Natural Language Processing, Artificial Intelligence Chatbots, and Automation  </h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Enterprise Resource Planning and Information Technology System Support</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Project Management</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI & Automations</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Robotics & Hardware</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications & Networks</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI & Automations</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Robotic & Hardware</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications & Networks</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="AI & Automations">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project1.png" alt="Natural Language Processing Chatbot for Enterprise Systems" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Natural Language Processing Chatbot for Enterprise Systems</h3>
+
+                <p class="project-category">AI & Automations</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AI & Automations">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project2.jpg" alt="Artificial Intelligence Referee Chatbot – Multi-Model Evaluation and Consensus System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Artificial Intelligence Referee Chatbot – Multi-Model Evaluation and Consensus System</h3>
+
+                <p class="project-category">AI & Automations</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Applications & Networks">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project3.jpg" alt="Real-Time Infrastructure Monitoring and Alert Automation System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Real-Time Infrastructure Monitoring and Alert Automation System</h3>
+
+                <p class="project-category">Applications & Networks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AI & Automations">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project4.png" alt="Artificial Intelligence–Powered Healthcare Recommendation System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Artificial Intelligence–Powered Healthcare Recommendation System</h3>
+
+                <p class="project-category">AI & Automations</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AI & Automations">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project5.jpg" alt="Gender and Age Identification Using Machine Learning and Deep Learning Techniques." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gender and Age Identification Using Machine Learning and Deep Learning Techniques.</h3>
+
+                <p class="project-category">AI & Automations</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Robotics & Hardware">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project6.jpg" alt="Hand Gesture Controlled Robotic Arm" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hand Gesture Controlled Robotic Arm</h3>
+
+                <p class="project-category">Robotics & Hardware</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Applications & Networks">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project7.png" alt="Design of Fire Alarm System for University Campus" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Design of Fire Alarm System for University Campus</h3>
+
+                <p class="project-category">Applications & Networks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Applications & Networks">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project8.png" alt="Property Database Management System using MySQL " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Property Database Management System using MySQL </h3>
+
+                <p class="project-category">Applications & Networks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Applications & Networks">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project9.png" alt="Blood Group Collection Directory using C++ and .NET Framework" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Blood Group Collection Directory using C++ and .NET Framework</h3>
+
+                <p class="project-category">Applications & Networks</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14458.70721480902!2d67.174723!3d24.8788382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339d42826d439:0xdfc19ef31cd07182!2sHuzaifa%20Haider%E2%80%99s%20House!5e0!3m2!1sen!2sbd!4v20260202"
+            width="400"
+            height="300"
+            style="border:0; filter:none !important;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+          </figure>
+        </section>
+
+                <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form id="contact-form" class="form">
+
+            <div class="input-wrapper">
+              <input 
+                type="text" 
+                name="from_name" 
+                class="form-input" 
+                placeholder="Full name" 
+                required>
+
+              <input 
+                type="email" 
+                name="reply_to" 
+                class="form-input" 
+                placeholder="Email address" 
+                required>
+            </div>
+
+            <textarea 
+              name="message" 
+              class="form-input" 
+              placeholder="Your Message" 
+              required>
+            </textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
